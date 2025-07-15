@@ -56,6 +56,8 @@ include("qupath-extension-script-editor")
 include("qupath-extension-openslide")
 include("qupath-extension-bioformats")
 
+include("qupath-extension-qymia")
+
 // Support JavaFX dependency override
 // This can be used to create a build for older versions of macOS
 dependencyResolutionManagement {

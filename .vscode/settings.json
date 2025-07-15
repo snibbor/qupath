@@ -1,0 +1,7 @@
+{
+  // for the Gradle extension itself
+  "gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.7.6-hotspot",
+
+  // if you are also importing with the Java extension
+  "java.import.gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.7.6-hotspot"
+}

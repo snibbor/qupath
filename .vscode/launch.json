@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch QuPath",
+            "request": "launch",
+            "projectName": "qupath-app",
+            "mainClass": "qupath.QuPath",
+            // "preLaunchTask": "Gradle: assemble",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [],
+            "vmArgs": [
+                "--add-opens=java.base/java.lang=ALL-UNNAMED"
+            ]
+        }
+    ]
+}
