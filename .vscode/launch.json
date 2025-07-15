@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "QuPath",
+            "request": "launch",
+            "mainClass": "qupath.QuPath",
+            "projectName": "qupath-app"
+        },
+        {
+            "type": "java",
+            "name": "Timeit",
+            "request": "launch",
+            "mainClass": "qupath.lib.common.Timeit",
+            "projectName": "qupath-core"
+        },
+        {
+            "type": "java",
+            "name": "JavadocViewer",
+            "request": "launch",
+            "mainClass": "qupath.lib.gui.JavadocViewer",
+            "projectName": "qupath-gui-fx"
+        },
+        {
+            "type": "java",
+            "name": "JavadocViewer$JavadocSearch",
+            "request": "launch",
+            "mainClass": "qupath.lib.gui.JavadocViewer$JavadocSearch",
+            "projectName": "qupath-gui-fx"
+        }
+    ]
+}
